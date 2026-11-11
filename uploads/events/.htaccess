@@ -1,0 +1,5 @@
+# Event posters only: never execute scripts from the upload folder.
+<FilesMatch "\.(php|phtml|php3|php4|php5|phar)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes
